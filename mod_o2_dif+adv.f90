@@ -971,11 +971,11 @@ endif
 
 Totresp = -Totresp
 
-TotO2dif = TotO2dif*iox*1e-3*width_3d*(pixelSize)*(PixelSize)
-TotO2adv = TotO2adv*iox*1e-3*width_3d*(pixelSize)*(PixelSize)
-TotOrgdecay = Totorgdecay*iox*1e-3*width_3d*(pixelSize)*(PixelSize)
-Totresp = Totresp*iox*1e-3*width_3d*(pixelSize)*(PixelSize)
-do2dt = do2dt*iox*1e-3*width_3d*(pixelSize)*(PixelSize)
+TotO2dif = TotO2dif*iox*1e-3*width_3d*(pixelSize)*(PixelSize)/(n_col*pixelsize*width_3d)
+TotO2adv = TotO2adv*iox*1e-3*width_3d*(pixelSize)*(PixelSize)/(n_col*pixelsize*width_3d)
+TotOrgdecay = Totorgdecay*iox*1e-3*width_3d*(pixelSize)*(PixelSize)/(n_col*pixelsize*width_3d)
+Totresp = Totresp*iox*1e-3*width_3d*(pixelSize)*(PixelSize)/(n_col*pixelsize*width_3d)
+do2dt = do2dt*iox*1e-3*width_3d*(pixelSize)*(PixelSize)/(n_col*pixelsize*width_3d)
 totAbio = -(abs(totOrgDecay) - abs(Totresp) )
 reso2 = do2dt + toto2dif + toto2adv + totorgdecay 
 
