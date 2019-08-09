@@ -59,7 +59,7 @@ $ Appendix A
 $ Appendix B 
 (a)  oxygen_ON = .true., flow_ON = true. (in eParameters_IN.txt)
 (b)  oxygen_ON = .true., flow_ON = true. (in eParameters_IN.txt), flw_rsltn = 2. (in SedENV.IN)
-(c)  oxygen_ON = .true., flow_ON = true. (in eParameters_IN.txt), Total number of organisms = 2, Width of the matrix (cm) = 12 (in Parameters_IN.txt)  
+(c)  oxygen_ON = .true., flow_ON = true. (in eParameters_IN.txt), Total number of organisms = 2, Width of the matrix (cm) = 24 (in Parameters_IN.txt)  
 $ Appendix C
 (1)  oxygen_ON = .true., flow_ON = true., Perm_Rec = .true. (in eParameters_IN.txt), 0.6 Porosity of sediment (in Parameters_IN.txt)
 (2)  oxygen_ON = .true., flow_ON = true., Perm_Rec = .true., Form_Rec = .true. (in eParameters_IN.txt)
