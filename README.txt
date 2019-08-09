@@ -13,7 +13,7 @@ To make a simulation, following steps need be followed.
 
 (1) Specify parameters in eParameters_IN.txt, SedENV.IN and Parameters_IN.txt.
     (a) Specify directory where output is stored in line 2 of runelabs.sh.
-    (a) Turn switches on/off depending on simulations in eParameters_IN.txt.
+    (b) Turn switches on/off depending on simulations in eParameters_IN.txt.
     (c) Change reaction rate, shear velocity and oxygen concentration in SedENV.IN.  
     (d) Change sedimentation rate, porosity and simulation duration in Parameters_IN.txt. 
 (2) Compile codes and run a simulation by typing './runelabs.sh'. 
