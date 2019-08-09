@@ -1,6 +1,5 @@
 #!/bin/bash
-workdir="E:/biot-res/"
-# workdir="./biot-res/"  # use as a detault 
+workdir="E:/biot-res/"    # working directory  
 read -p "Type the name of simulation, followed by [enter]:" workname 
 today=$(date "+%Y%m%d")
 mkdir -p "$workdir$workname-$today"

@@ -2,10 +2,10 @@
 220e-6          iox
 0.833           OM_uni
 4545.454545     fact (1/220e-6 = 4545.454545 detault )
-1e3             bio_fact (1e4 default) 
+1e4             bio_fact (1e4 default) 
 387.8928        dif_0 
 8e-6            mo2  
-4545.454545     kdcy (1d-1/220.d-6 = 454.5454545 yr-1 default )
+454.5454545     kdcy (1d-1/220.d-6 = 454.5454545 yr-1 default )
 0.25            width_3d (0.25d0 cm default)
 1.0             shearfact (1d0 default)
 1.0             corg_0 (1d0 wt% default) 

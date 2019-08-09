@@ -6,3 +6,11 @@ D      Feeding.Type
 10     Locomotion.Speed.(cm.day-1)
 1      Ingestion.Mass.Specific.Rate(day-1)
 0.7    Ingestion.Selectivity
+2      ID
+0.2    Width(cm)
+1.6    Length(cm)
+1.2    Density.(g.cm-3)
+D      Feeding.Type
+10     Locomotion.Speed.(cm.day-1)
+1      Ingestion.Mass.Specific.Rate(day-1)
+0.7    Ingestion.Selectivity
